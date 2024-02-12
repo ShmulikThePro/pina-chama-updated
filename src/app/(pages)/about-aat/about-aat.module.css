@@ -1,0 +1,10 @@
+.main .populations {
+  display: grid ;
+  grid-template-columns: 1fr 1fr ;
+  justify-items: center ;
+  text-align: initial ;
+}
+
+.main .populations li {
+  font-size: 20px ;
+}

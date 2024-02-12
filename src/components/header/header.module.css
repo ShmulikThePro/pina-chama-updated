@@ -1,0 +1,28 @@
+.header {
+  display: flex ;
+  align-items: center ;
+  background: rgb(206, 206, 142) ;
+  padding: 5px 20px 5px 10px ;
+}
+
+.header img {
+  margin-right: auto ;
+}
+
+.header svg {
+  cursor: pointer ;
+}
+
+.header a {
+  font-size: 24px ;
+  font-weight: bold ;
+  color: rgb(80, 80, 80) ;
+  text-decoration: none ;
+  margin-right: 20px ;
+  transition: 0.15s color ;
+}
+
+.header a:hover,
+.header .activeLink {
+  color: rgb(0, 0, 0) ;
+}

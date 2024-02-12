@@ -1,0 +1,19 @@
+.navbar {
+  display: flex ;
+  position: fixed ;
+  top: 0 ;
+  left: 0 ;
+  width: 100% ;
+  height: 100% ;
+  flex-direction: column ;
+  background: rgb(255, 255, 255) ;
+}
+
+.navbar svg {
+  cursor: pointer ;
+}
+
+.navbar a:hover,
+.navbar .activeLink {
+  color: rgb(0, 0, 0) ;
+}
